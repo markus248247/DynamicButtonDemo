@@ -1,5 +1,35 @@
-body{
-    background-color: black;
-    font-family: monospace;
-    font-size: 18px;
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+body.dark-mode {
+  background: #222;
+  color: #fff;
+}
+
+body.light-mode {
+  background: #fff;
+  color: #222;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 255, 125);
+  height: 100px;
+  width: 200px;
+  border: 1px black solid;
+  border-radius: 15px;
+  font-family: "Roboto", Arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+.Button:hover {
+  background-color: rgb(178, 239, 155);
 }
